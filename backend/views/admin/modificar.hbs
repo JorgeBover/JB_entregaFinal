@@ -1,0 +1,20 @@
+<div class="holder">
+
+    <form action="/admin/servicios/modificar" method="post" enctype="multipart/form-data">
+        <div>
+            <ul class="agregar">
+                <input type="hidden" value="{{servicio.id}}" name="id">
+                <li><input type="text" id="" placeholder="Título" value="{{servicio.titulo}}" name="titulo"></li>
+                <li><textarea name="informacion" placeholder="ingresar información" id="" cols="30" rows="10">{{servicio.informacion}}</textarea></li>
+                <li><input type="file" name="imagen" id="" placeholder="Seleccionar un archivo"></li>
+                <li><p><input type="checkbox" name="img_delete" id="img_delete" value="1">Eliminar imágen actual?</p></li>
+                <input type="hidden" name="img_original" value="{{servicio.imagen}}">
+                <li><button type="submit">Modificar</button></li>
+            </ul>
+
+        </div>
+        {{#if error}}
+        <h5 style="text-align: center; color: red;">{{message}}</h5>
+        {{/if}}
+    </form>
+</div>

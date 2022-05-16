@@ -1,0 +1,31 @@
+.habitacion{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0em 1em 0em;
+    margin-bottom: 1em;
+    border: 1px solid darkgray;
+}
+
+.caracteristicas{
+    text-align: center;
+    width: 400px;
+       
+}
+
+.caracteristicas ul{
+    list-style: circle;
+    text-align: left;
+    line-height: 2em;
+    font-weight: 100;
+    margin-bottom: 4em;
+}
+
+
+.boton {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: 5px solid black;
+           
+}

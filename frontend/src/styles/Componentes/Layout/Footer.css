@@ -1,0 +1,47 @@
+footer {
+    padding-bottom: 1em;
+    width: 100%;
+   
+        
+}
+
+.holder-pie{
+    padding-top: 0.3em;
+    margin: auto;
+    width: 1024px;
+    display: flex;
+    
+}
+
+.columna-d{
+    width: 50%;
+    height: 8em;
+    border-right: 1px solid darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.columna-i{
+    width: 50%;
+    height: 8em;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.columna-i li{
+    font-size: 0.8em;
+    list-style: none;
+}
+
+.pie{
+    border-top: 1px solid darkgray;
+    
+    
+    
+}

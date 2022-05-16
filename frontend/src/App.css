@@ -1,0 +1,57 @@
+body{ 
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+main {
+  margin-top: 8em;
+}
+
+.holder {
+  width: 1024px;
+  margin: auto;
+  
+}
+
+.detalle {
+  background-color: black;
+  padding: 1em;
+  margin-bottom: 2em;
+  max-width: 100%;
+  text-align: center;
+}
+
+.detalle h3 {
+  color: white;
+}
+
+.detalle p{
+  font-weight: 100;
+  color: white;
+}
+
+.carrusel{
+  max-width: 100em;
+  margin: auto;
+  margin-bottom: 2em;
+
+}   
+
+h4 {
+  margin-top: 0.5em;
+  font-size: 1em;
+}
+
+h3 {
+  margin-top: 0.5em;
+  font-size: 1em;
+
+}
+
+h2 {
+  margin-top: 0.5em;
+  font-size: 1em;
+
+}
+

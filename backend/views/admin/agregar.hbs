@@ -1,0 +1,17 @@
+<div class="holder">
+
+    <form action="/admin/servicios/agregar" method="post" enctype="multipart/form-data">
+        <div>
+            <ul class="agregar">
+                <li><input type="text" id="" placeholder="Título" name="titulo"></li>
+                <li><textarea name="informacion" placeholder="Ingresar descripción" id="" cols="30" rows="10"></textarea></li>
+                <li> <input type="file" name="imagen" id="" placeholder="Seleccionar un archivo"> </li>
+                <li><button type="submit">Agregar</button></li>
+            </ul>
+
+        </div>
+        {{#if error}}
+        <h5 style="text-align: center; color: red;">{{message}}</h5>
+        {{/if}}
+    </form>
+</div>

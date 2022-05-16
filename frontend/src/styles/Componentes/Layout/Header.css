@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap');
+
+header{
+    position: fixed;
+    z-index: 120;
+    top: 0;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    background-color: white;
+    opacity: 95%;
+        
+}
+
+header h1{
+    font-family: 'Cinzel', serif;
+    font-weight: 100;
+    float: right;
+    
+  }
+
+.icono{
+    width: 100px;
+}

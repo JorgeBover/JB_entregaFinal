@@ -1,0 +1,46 @@
+<div class="holder">
+    <div class="administrador">
+        <p> Hola {{usuario}}! <a id="exit" href="/admin/login/logout">Salir</a></p>
+    </div>
+
+    <div class="listaserv">
+        <div>
+            <h2 style="margin-left:10px;">Listado de servicios</h2>
+        </div>
+
+        <div class="nuevo">
+            <p>Nuevo <a href="/admin/servicios/agregar"><img src="/images/new.svg" alt=""></a></p>
+        </div>
+
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="orden">#</th>
+                        <th class="titulo">Título</th>
+                        <th class="imagen">Imágen</th>
+                        <th class="acciones">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each servicios}}
+                    <tr>
+                        <th>{{id}}</th>
+                        <td>{{titulo}}</td>
+                        <td class="img">{{{imagen}}}</td>
+                        <td style="text-align: center;">
+                            <a href="/admin/servicios/modificar/{{id}}"><img src="/images/edit.svg" alt=""></a>
+                            &nbsp;
+                            <a href="/admin/servicios/eliminar/{{id}}"><img src="/images/delete.svg" alt=""></a>
+                        </td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+
+        </div>
+
+
+    </div>
+
+</div>

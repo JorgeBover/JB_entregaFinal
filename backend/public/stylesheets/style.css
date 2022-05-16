@@ -1,0 +1,229 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.holder {
+  width: 1024px;
+  margin: auto;
+}
+
+header{
+    width: 100%;
+    margin: auto;   
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: white;
+    opacity: 95%;
+    border-bottom: 1px solid black;
+        
+}
+
+header h1{
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 100;
+    float: right;
+    
+}
+
+.icono{
+  width: 100px;
+}
+
+
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 1em;
+  width: 100%;
+ 
+      
+}
+
+.holder-pie{
+  padding-top: 0.3em;
+  margin: auto;
+  width: 1024px;
+  display: flex;
+  
+}
+
+.columna-d{
+  width: 50%;
+  height: 8em;
+  border-right: 1px solid darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.columna-i{
+  width: 50%;
+  height: 8em;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.columna-i li{
+  font-size: 0.8em;
+  list-style: none;
+}
+
+.pie{
+  border-top: 1px solid darkgray;
+  
+   
+}
+
+#usuarios li{
+  list-style: none;
+  line-height: 50px;
+  
+}
+
+input {
+  font-size: 12px;
+  width: 40%;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#img_delete {
+  width: 25px;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: gray;
+  
+}
+
+/* administrador servicios */
+
+.administrador {
+  text-align: right;
+}
+
+.administrador p {
+  color: gray;
+}
+
+#exit {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 3px 15px 3px 15px;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+  color: white;
+  background-color: red;
+}
+
+#exit:hover {
+  border: 1px solid red;
+  color: red;
+  background-color: white;
+}
+
+.nuevo {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 2em;
+  text-align: right;
+}
+
+.nuevo img {
+  position: relative;
+  top: 3px;
+  padding: 0;
+  margin: 0;
+}
+
+.nuevo p {
+  margin: 0;
+  color: black ;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.tabla {
+  margin-top: 2em;
+  width: 100%;
+}
+
+table {
+  margin: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table thead{
+  color: white;
+  background-color: black;
+}
+
+th {
+  border: 1px solid lightgray;
+}
+
+td {
+  padding-left: 10px;
+  border: 1px solid lightgray;
+}
+
+.img {
+  text-align: center;
+}
+
+.orden {
+  width: 5%;
+
+}
+
+.titulo{
+  width: 65%;
+
+}
+
+.imagen {
+  width: 20%;
+
+}
+
+.acciones{
+  width: 10%;
+
+}
+
+/* agregar */
+
+.agregar {
+  line-height: 50px;
+  text-align: center;
+  list-style: none;
+
+}
+
+.agregar textarea {
+  width: 40%;
+  height: 250px;
+  
+}

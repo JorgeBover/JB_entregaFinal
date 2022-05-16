@@ -1,0 +1,17 @@
+<div class="holder">
+    <form action="/admin/login" method="post">
+        <div>
+            <ul id="usuarios">
+                <li><input type="text" id="" placeholder="Usuario" name="usuario"></li>
+                <li><input type="password" id="" placeholder="Contraseña" name="password"></li>
+                <li><button type="submit">Ingresar</button></li>
+            </ul>
+
+        </div>
+    </form>
+    {{#if error}}
+    <script>
+        alert('Usuario o contraseña incorrecto');
+    </script>
+    {{/if}}
+</div>
